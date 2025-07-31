@@ -11,26 +11,56 @@ A beautiful Streamlit app that creates personalized playlists based on your curr
 - **📊 Real-time Stats**: Track your playlist creation history
 - **🎯 Mood Guide**: Learn about each mood and its characteristics
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-### Option 1: Demo Mode (Instant - No Setup Required)
+### 1. Clone the Repository
 
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/yourusername/mood-playlist-generator.git
+cd mood-playlist-generator
+```
 
-2. **Run the App**:
+### 2. Set Up Virtual Environment
+
+**On macOS/Linux:**
+```bash
+# Create virtual environment
+python3 -m venv mood_playlist_env
+
+# Activate virtual environment
+source mood_playlist_env/bin/activate
+```
+
+**On Windows:**
+```bash
+# Create virtual environment
+python -m venv mood_playlist_env
+
+# Activate virtual environment
+mood_playlist_env\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Choose Your Setup Option
+
+#### Option A: Demo Mode (Instant - No Setup Required)
+
+1. **Run the App**:
    ```bash
    streamlit run app.py
    ```
 
-3. **Use Demo Mode**:
+2. **Use Demo Mode**:
    - Choose your mood
    - Click "Generate Demo Playlist"
    - Get instant playlists with sample tracks!
 
-### Option 2: Full Spotify Integration
+#### Option B: Full Spotify Integration
 
 1. **Set Up Spotify API**:
    - Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
@@ -85,7 +115,7 @@ A beautiful Streamlit app that creates personalized playlists based on your curr
 ## 📁 Project Structure
 
 ```
-Mood_Playlist/
+mood_playlist/
 ├── app.py                 # Main application
 ├── requirements.txt       # Python dependencies
 ├── README.md             # This file
@@ -202,6 +232,7 @@ This project is licensed under the MIT License.
 ### General Issues
 - **Port conflicts**: Try running on a different port: `streamlit run app.py --server.port 8505`
 - **Dependencies**: Make sure all packages are installed: `pip install -r requirements.txt`
+- **Virtual environment**: Ensure you're in the correct virtual environment before installing dependencies
 
 ---
 
