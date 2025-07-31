@@ -16,8 +16,8 @@ A beautiful Streamlit app that creates personalized playlists based on your curr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mood-playlist-generator.git
-cd mood-playlist-generator
+git clone https://github.com/codingnoodle/mood_playlist.git
+cd mood_playlist
 ```
 
 ### 2. Set Up Virtual Environment
